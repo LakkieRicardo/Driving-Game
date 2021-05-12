@@ -1,0 +1,22 @@
+{
+  "name": "driving-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LakkieRicardo/Driving-Game.git"
+  },
+  "author": "Diego Ricardo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LakkieRicardo/Driving-Game/issues"
+  },
+  "homepage": "https://github.com/LakkieRicardo/Driving-Game#readme",
+  "devDependencies": {
+    "electron": "^12.0.7"
+  }
+}
