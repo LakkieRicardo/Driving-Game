@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Driving Game</title>
+    <link rel="stylesheet" href="bundle/css/main.css" />
+</head>
+<body style="background: white;">
+    
+    <div class="page-container">
+        <div id="content" class="page-col"></div>
+        <div id="load-map-form" class="page-col">
+            <form>
+                <label for="map-file">Choose map file JSON</label><br>
+                <input type="file" name="map-file" id="map-file-input"><br>
+            </form>
+            <button id="load-map-button">Load map</button>
+        </div>
+    </div>
+    
+    <script type="module" src="build/bundle.js"></script>
+
+</body>
+</html>

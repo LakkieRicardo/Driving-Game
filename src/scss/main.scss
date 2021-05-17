@@ -1,0 +1,11 @@
+.page-container {
+    display: flex;
+}
+
+.page-col {
+    padding: 2rem;
+}
+
+.page-col * {
+    margin-bottom: 15px;
+}

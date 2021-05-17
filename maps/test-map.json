@@ -1,0 +1,51 @@
+{
+    "width": 1000,
+    "height": 1000,
+    "position_mode": "grid",
+    "roads": [
+        {
+            "id": "road_a",
+            "name": "Road A",
+            "position": {
+                "x": 0,
+                "y": 0,
+                "length": 12,
+                "direction": "down"
+            }
+        },
+        {
+            "id": "road_b",
+            "name": "Road B",
+            "position": {
+                "x": 1,
+                "y": 0,
+                "length": 12,
+                "direction": "down"
+            }
+        },
+        {
+            "id": "road_c",
+            "name": "Road C",
+            "position": {
+                "x": 2,
+                "y": 0,
+                "length": 12,
+                "direction": "right"
+            }
+        }
+    ],
+    "decorations": [
+        {
+            "id": "bush_a",
+            "name": "Bush Decoration",
+            "sprite": "bush-tile.png",
+            "position": {
+                "x": 2,
+                "y": 1,
+                "grid_width": 1,
+                "grid_height": 1,
+                "rotation": 0
+            }
+        }
+    ]
+}
